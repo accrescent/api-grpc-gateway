@@ -19,3 +19,7 @@ jobs:
           go-version-file: 'go.mod'
       - run: go build
       - run: out=$(gofmt -d .); echo "$out"; test -z "$out"
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/build-push-action@v6
+        with:
+          push: false
