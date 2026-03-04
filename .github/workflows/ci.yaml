@@ -18,3 +18,4 @@ jobs:
         with:
           go-version-file: 'go.mod'
       - run: go build
+      - run: out=$(gofmt -d .); echo "$out"; test -z "$out"
