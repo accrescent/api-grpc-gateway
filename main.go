@@ -10,6 +10,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"net/textproto"
 
 	gw "buf.build/gen/go/accrescent/console-api/grpc-ecosystem/gateway/v2/accrescent/console/v1alpha1/consolev1alpha1gateway"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
@@ -61,7 +62,7 @@ func run(config *config) error {
 		}
 	}()
 
-	mux := runtime.NewServeMux()
+	mux := runtime.NewServeMux(runtime.WithIncomingHeaderMatcher(headerMatcher))
 	if err := gw.RegisterAppDraftServiceHandler(ctx, mux, conn); err != nil {
 		return err
 	}
@@ -85,4 +86,15 @@ func run(config *config) error {
 	log.Printf("Starting gateway on %s", listenAddr)
 
 	return http.ListenAndServe(listenAddr, mux)
+}
+
+func headerMatcher(key string) (string, bool) {
+	key = textproto.CanonicalMIMEHeaderKey(key)
+
+	switch key {
+	case "Cookie":
+		return key, true
+	default:
+		return "", false
+	}
 }
