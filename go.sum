@@ -1,9 +1,9 @@
-buf.build/gen/go/accrescent/console-api/grpc-ecosystem/gateway/v2 v2.28.0-20260310011136-40b579234203.1 h1:JsU/8EpuGsUim+ycNO7J6Vmt301dLIvZLS3bDEo7n+o=
-buf.build/gen/go/accrescent/console-api/grpc-ecosystem/gateway/v2 v2.28.0-20260310011136-40b579234203.1/go.mod h1:xEtOWj/9L36JWzfjsTZG4W0bMcfKp2s4nZV92Kansio=
-buf.build/gen/go/accrescent/console-api/grpc/go v1.6.1-20260310011136-40b579234203.1 h1:5GxTAnxDKGRmLZvo0S9+MF3N8dIhIS6UyBdmimiUhoc=
-buf.build/gen/go/accrescent/console-api/grpc/go v1.6.1-20260310011136-40b579234203.1/go.mod h1:9L0Ggw7xFeXWJ+ZTV/zADHctBcudlzdrSvPwY0Fs2hE=
-buf.build/gen/go/accrescent/console-api/protocolbuffers/go v1.36.11-20260310011136-40b579234203.1 h1:3OCVJrnpCWjLWWEKHtnpqHPVUPA7hom4zXO4CPN2j5Q=
-buf.build/gen/go/accrescent/console-api/protocolbuffers/go v1.36.11-20260310011136-40b579234203.1/go.mod h1:DqgAVVZIIre13kqs6ZD2eTESKMSpIdbFynLXl7t0284=
+buf.build/gen/go/accrescent/console-api/grpc-ecosystem/gateway/v2 v2.28.0-20260313180626-3306aec534ef.1 h1:xktDhsbu8UKw+AhbA14d3f9qDrZx87QrfoQ2W6FN9Ls=
+buf.build/gen/go/accrescent/console-api/grpc-ecosystem/gateway/v2 v2.28.0-20260313180626-3306aec534ef.1/go.mod h1:Wi/njNHpHhFRMl7lErJs+RJTCwTu6M5VAwANyC9uY8k=
+buf.build/gen/go/accrescent/console-api/grpc/go v1.6.1-20260313180626-3306aec534ef.1 h1:YZcht8+g3X3BK6WKtw8X9dWEZtJPX4nvCoC1ewqqNJA=
+buf.build/gen/go/accrescent/console-api/grpc/go v1.6.1-20260313180626-3306aec534ef.1/go.mod h1:4VdK3dla2ntGlQ4CVavTkircn3bNvyQrqD1wncWEWLw=
+buf.build/gen/go/accrescent/console-api/protocolbuffers/go v1.36.11-20260313180626-3306aec534ef.1 h1:o/sYim6UUSg1n+0b+X2ov2eEJKaVtvD12GRKBWIEKjY=
+buf.build/gen/go/accrescent/console-api/protocolbuffers/go v1.36.11-20260313180626-3306aec534ef.1/go.mod h1:DqgAVVZIIre13kqs6ZD2eTESKMSpIdbFynLXl7t0284=
 buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.36.11-20260209202127-80ab13bee0bf.1 h1:PMmTMyvHScV9Mn8wc6ASge9uRcHy0jtqPd+fM35LmsQ=
 buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.36.11-20260209202127-80ab13bee0bf.1/go.mod h1:tvtbpgaVXZX4g6Pn+AnzFycuRK3MOz5HJfEGeEllXYM=
 buf.build/gen/go/grpc-ecosystem/grpc-gateway/protocolbuffers/go v1.36.11-20260102203250-6467306b4f62.1 h1:1L6+uMVRfpetc9KKitISZKmsWGn70Bn6k+TkYYxhW0k=
