@@ -59,8 +59,8 @@ func run(config *config) error {
 		return err
 	}
 	defer func() {
-		if cerr := conn.Close(); err != nil {
-			grpclog.Errorf("Failed to close conn to %s: %v", config.backendEndpoint, cerr)
+		if err := conn.Close(); err != nil {
+			grpclog.Errorf("Failed to close conn to %s: %v", config.backendEndpoint, err)
 		}
 	}()
 
